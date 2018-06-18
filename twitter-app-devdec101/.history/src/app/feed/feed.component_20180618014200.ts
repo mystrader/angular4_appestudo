@@ -20,14 +20,12 @@ export class FeedComponent implements OnInit {
       user: "Jenny",
       name: "JennieDoe",
       body: "Jenny Doe is a library scientist living in New York City. She likes to spend her time reading, running, and writing.",
-      likes: [],
       avatar: "../assets/images/avatar/jenny.jpg"
     },
      {
       user: "Veronika",
       name: "Veronika",
       body: "Veronika is a library scientist living in New York City. She likes to spend her time reading, running, and writing.",
-      likes: ['jenny', 'stevie'],
       avatar: "../assets/images/avatar/veronika.jpg"
     }
   ];
