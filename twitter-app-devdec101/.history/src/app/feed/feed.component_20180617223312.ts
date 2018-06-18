@@ -11,8 +11,8 @@ export class FeedComponent implements OnInit {
   tweets = [
     {
       user: "Stevie",
-      name: "Stevie Gray",
-      body: "Stevie Gray is a library scientist living in New York City. She likes to spend her time reading, running, and writing.",
+      name: "Stevie Feliciano",
+      body: "Stevie Feliciano is a library scientist living in New York City. She likes to spend her time reading, running, and writing.",
       avatar: "../assets/images/avatar/stevie.jpg"
     },
      {
@@ -25,7 +25,7 @@ export class FeedComponent implements OnInit {
       user: "Veronika",
       name: "Veronika",
       body: "Veronika is a library scientist living in New York City. She likes to spend her time reading, running, and writing.",
-      avatar: "../assets/images/avatar/veronika.jpg"
+      avatar: "../assets/images/avatar/jenny.jpg"
     }
   ];
 

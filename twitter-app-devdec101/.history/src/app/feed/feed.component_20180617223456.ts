@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FeedComponent implements OnInit {
 
 
-  tweets = [
+  tweets /* = [
     {
       user: "Stevie",
       name: "Stevie Gray",
@@ -27,7 +27,7 @@ export class FeedComponent implements OnInit {
       body: "Veronika is a library scientist living in New York City. She likes to spend her time reading, running, and writing.",
       avatar: "../assets/images/avatar/veronika.jpg"
     }
-  ];
+  ];*/
 
 
   constructor() { }

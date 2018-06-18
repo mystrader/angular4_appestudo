@@ -1,21 +1,21 @@
 <div class="ui segment">
 
 <!-- Listagem de twittes-->
-<div class="ui yellow message" *ngIf='!tweets'>
+<div class="ui yellow message">
   <i class="star icon"></i>
-  Não existe tweets
+  To make the entire content of an item link, check out the link variation below
 </div>
 
 <!-- Listagem de tweets -->
 <div class="ui items">
-  <div class="item" *ngFor="let tweet of tweets">
-    <a class="ui tiny image" >
+  <div class="item">
+    <a class="ui tiny image" *ngFor="let tweet of tweets">
       <img src="{{tweet.avatar}}">
     </a>
     <div class="content">
       <a class="header">{{tweet.name}}</a>
       <div class="description">
-        <p>@{{tweet.user}} - {{tweet.body}}</p>
+        <p>@{{tweet.user}} - {{tweet.body}</p>
       </div>
     </div>
   </div>
