@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter, OnInit  } from '@angular/core';
+import { Component, Input, Output, EventEmitter OnInit  } from '@angular/core';
 
 @Component({
   selector: 'app-tweet',
@@ -7,6 +7,7 @@ import { Component, Input, Output, EventEmitter, OnInit  } from '@angular/core';
 })
 export class TweetComponent implements OnInit {
 
+
   @Input() tweet;
   @Output() likedTweetChild = new EventEmitter<any>();
 
@@ -14,8 +15,11 @@ export class TweetComponent implements OnInit {
 
   ngOnInit() {
   }
+
+
   likeTweet(tweet){
     this.likedTweetChild.emit(tweet);
+    // console.log(tweet);
   }
 
 }

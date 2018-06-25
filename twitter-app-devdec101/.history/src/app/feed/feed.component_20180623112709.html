@@ -6,6 +6,6 @@
   Não existe tweets
 </div>
 
-<app-tweet *ngFor='let currTweet of tweets' [tweet]='currTweet' (likedTweetChild)='handleLikedTweetFromChildComponent($event)'></app-tweet>
+<app-tweet *ngFor='let currTweet of tweets' [tweet]='currTweet' (likedTweetChild)='handleLikedTweetFromChildComponent'></app-tweet>
 
 </div>

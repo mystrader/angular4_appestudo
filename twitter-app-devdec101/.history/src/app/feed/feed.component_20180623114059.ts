@@ -44,10 +44,9 @@ export class FeedComponent implements OnInit {
   }
 
   handleLikedTweetFromChildComponent(tweet){
-    var index = this.tweets.findIndex(currTweet => {
+    var index = this.tweets.findIndex(curr => {
         return currTweet.user == tweet.user;
     })
-    this.tweets[index].likes.push(this.currentUser);    
-    console.log(index);
+    console.log(tweet);
   }
 }

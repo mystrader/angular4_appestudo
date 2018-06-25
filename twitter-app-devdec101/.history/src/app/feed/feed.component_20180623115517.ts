@@ -47,7 +47,7 @@ export class FeedComponent implements OnInit {
     var index = this.tweets.findIndex(currTweet => {
         return currTweet.user == tweet.user;
     })
-    this.tweets[index].likes.push(this.currentUser);    
+    this.tweets[index].likes.push(this.currentUser);
     console.log(index);
   }
 }
